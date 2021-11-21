@@ -1,0 +1,145 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+.nanumgothiccoding * {
+ font-family: 'Nanum Gothic Coding', monospace;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+body, p{
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+/* header */
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#nav a:hover{
+  color: rgb(46, 72, 164);
+}
+
+.head {
+  background-color: white;
+  width: calc(100% - 200px);
+  height: 97px;
+  padding: 0 100px;
+  display: flex;
+}
+  
+.head div{
+  display: flex;
+  width: 223px;
+  flex: 1;
+  padding: 26px 0;
+}
+#logo a{
+  line-height: 45px;
+  font-family: 'Nanum Gothic';
+  font-size: 27px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-style: normal;
+  color: #212121;
+}
+
+#nav {
+  padding: 26px 0;
+  width: 794px;
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  
+}
+
+#nav a{
+  width: auto;
+  vertical-align: middle;
+  padding: 0 12px;
+  font-size: 15px;
+  line-height: 45px;
+}
+
+
+#apply{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#apply a{ 
+  border: solid;
+  border-color: #e9e5e5;
+  color: #606060;
+  border-width: 0.5px;
+  font-size: 13px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 40px;
+  margin: 0 0 0 5px;
+  padding: 6px 26px
+}
+
+#apply a:hover{ 
+  background-color: rgb(46, 72, 164);
+  color: white;
+  transition: 0.3s;
+}
+
+/* video */
+#video{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 550px;
+  overflow: hidden;
+}
+
+#videoIFrame{
+  width: 100vw;
+  height: 100vw;
+}
+
+/* main */
+#main {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+#next {
+  height: 36vh;
+  position: relative;
+}
+
+
+#next div:first-child{
+  position: relative;
+  top: 50px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#next div:last-child{
+  position: relative;
+  top: 80px;
+  line-height: 30px;
+}
+
+#infobox{
+  position: relative;
+  top: 100px;
+  width: 300px;
+  height: 170px;
+}
+
+
+
+
