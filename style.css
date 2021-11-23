@@ -79,10 +79,11 @@ a{
   border-width: 0.5px;
   font-size: 13px;
   font-family: Helvetica, sans-serif;
-  font-weight: 200;
-  line-height: 40px;
+  font-weight: 350;
   margin: 0 0 0 5px;
-  padding: 6px 26px
+  padding: 6px 26px;
+  line-height: 20.59px;
+
 }
 
 #apply a:hover{ 
@@ -144,11 +145,20 @@ a{
 }
 
 #infobox a{
-  width: 350px;
-  height: 220px;
+  width: 300px;
+  height: 170px;
   padding: 24px;
   color: white; 
   background-color: #001255;
+  text-align: start;
+}
+
+#infobox a div, #infobox a p{
+  height: 23.8px;
+}
+
+#infobox a p:first-child{
+  height: 27.19px;
 }
 
 #infobox a:first-child, #infobox a:last-child {
@@ -159,9 +169,11 @@ a{
   font-size: 14px;
 }
 
-#infobox a p:nth-child(7) {
+#infobox a p:last-child {
   font-size: 12px;
 }
+
+
 
 
 
