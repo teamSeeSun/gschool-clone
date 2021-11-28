@@ -16,17 +16,26 @@ body, p{
   overflow-y: scroll;
 }
 
+#bluescreen {
+  position: absolute;
+  background-color: blue;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
 /* header */
 a{
   text-decoration: none;
   color: black;
 }
 
+
 #nav a:hover{
   color: rgb(46, 72, 164);
 }
 
-.head {
+.header {
   background-color: white;
   width: calc(100% - 200px);
   height: 97px;
@@ -34,7 +43,7 @@ a{
   display: flex;
 }
   
-.head div{
+.header div{
   display: flex;
   width: 223px;
   flex: 1;
@@ -115,7 +124,7 @@ a{
 }
 
 #next {
-  height: 36vh;
+  height: 206px;
   position: relative;
 }
 
@@ -123,7 +132,7 @@ a{
 #next div:first-child{
   position: relative;
   top: 50px;
-  font-size: 2rem;
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -131,6 +140,7 @@ a{
   position: relative;
   top: 80px;
   line-height: 30px;
+  color: #404040;
 }
 
 #blank1{
@@ -172,6 +182,54 @@ a{
 #infobox a p:last-child {
   font-size: 12px;
 }
+
+/* notice */
+
+
+#blank2 {
+  height: 40px;
+}
+
+#notbox {
+  width: 1072px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.notitem {
+  padding: 10px 0;
+  margin: 0 auto;
+  border-bottom: solid;
+  border-color: #A5A5A7;
+  border-width: 1px;
+  width: 1044px;
+  display: flex;
+  
+
+}
+
+.not {
+  padding: 0 5px 0 0;
+  color: #A5A5A7;
+  font-size: 14px;
+}
+
+.con {
+  width: 925px;
+  font-size: 14px;
+
+}
+
+.date {
+  color: #00000099;
+  font-size: 12px;
+  text-align: right;
+}
+
+#blank3 {
+  height: 60px;
+}
+
 
 
 

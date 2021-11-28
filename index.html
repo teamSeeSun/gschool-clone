@@ -11,10 +11,10 @@
 </head>
 
 <body>
-  <div class='head'>
-    <div id="logo"><a href='https://gschool.kr'>거꾸로캠퍼스</a></div>
+  <div class='header'>
+    <div id="logo"><a onclick="bluescreen()">거꾸로캠퍼스</a></div>
     <div id="nav">
-      <a href='https://gschool.kr/principle'>연구 원칙</a>
+      <a onclick="hell()">연구 원칙</a>
       <a href='https://gschool.kr/curriculum'>연구 과정</a>
       <a href='https://gschool.kr/school_life'>연구 활동</a>
       <a href='https://gschool.kr/notice'>법인 소식</a>
@@ -22,8 +22,7 @@
     </div>
 
     <div id="apply">
-      <a href='https://gschool.kr/apply' style=" width: 111px;
-  height: 20.6px;">
+      <a onclick="test()" style=" width: 111px; height: 20.6px;">
         <span><i class="far fa-edit" style="font-weight: 300;"></i></span>
         <span>입학 상담 및 지원</span>
       </a>
@@ -35,8 +34,6 @@
       src="https://player.vimeo.com/video/427031436?title=0&muted=1&autoplay=1&autopause=0&controls=0&loop=1&background=1&app_id=122963&autoplay=1"
       frameborder="0"></iframe>
   </div>
-
-
 
   <div id="main">
     <div id="next">
@@ -83,7 +80,43 @@
     </div>
   </div>
 
-  <div id="slogan">
+  <div id="notice">
+    <div id="blank2"></div>
+
+    <div id="notbox">
+      <div class="notitem">
+        <div class="not">공지사항</div>
+        <div class="con">인생은 아름다워요.</div>
+        <div class="date">2021-11-27</div>
+      </div>
+      <div class="notitem">
+        <div class="not">공지사항</div>
+        <div class="con">코딩은 재미있어요</div>
+        <div class="date">2021-11-27</div>
+      </div>
+      <div class="notitem">
+        <div class="not">공지사항</div>
+        <div class="con">하하하하하하하하하하하하하핳ㅏㅏㅏ하</div>
+        <div class="date">2021-11-27</div>
+      </div>
+      <div class="notitem">
+        <div class="not">공지사항</div>
+        <div class="con">히히히히힣ㅣㅣ히히히히히힣ㅣㅣㅣ히히히힣ㅣ</div>
+        <div class="date">2021-11-27</div>
+      </div>
+      <div class="notitem">
+        <div class="not">공지사항</div>
+        <div class="con">살려ㅓㅜㅜㅜ줘ㅓㅓㅓㅓㅓㅓ</div>
+        <div class="date">2021-11-27</div>
+      </div>
+      <div class="notitem">
+        <div class="not">공지사항</div>
+        <div class="con">제발 그만해 나 무서워 이러다가는 다 죽어</div>
+        <div class="date">2021-11-27</div>
+      </div>
+    </div>
+
+    <div id="blank3"></div>
   </div>
 
   <div id="foot">
@@ -93,6 +126,37 @@
     <div id="con"></div>
   </div>
 
+  <script>
+    function test() {
+      if (confirm("왕관을 쓰려는 자 그무게를 견뎌라.")) {
+        if (confirm("감당하실 수 있겠습니까? 닝겐?")) {
+          alert("환영합니다 왕이시여....")
+          location.href = "https://gschool.kr/apply"
+        } else {
+          alert("쫄보쉨ㅋ")
+        }
+      } else {
+        alert("그래 잘생각했네")
+      }
+    }
+
+    function hell() {
+      for (j = 0; j < 5; j++) {
+        for (i = 0; i < 5; i++) {
+          alert("던질까말까 던질까말까")
+        }
+        alert("던던던던 던져!")
+      }
+      location.href = 'https://gschool.kr/principle'
+    }
+
+    function bluescreen() {
+      document.querySelector("body").innerHTML = "<div id='bluescreen'>너의 컴퓨터는 읏되었다. <br/> 다시 살리고 싶다면 여기로 1억을 송금해라 <br/> 신한 110293264957 <br/><br/> 킬킬킬<div>"
+      for (i = 0; i < 6; i++) {
+        alert('error!@E@@$');
+      }
+    }
+  </script>
 </body>
 
 </html>
