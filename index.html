@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  <div id="video">
+  <div id="video" onclick="change()">
     <iframe id="videoIFrame"
       src="https://player.vimeo.com/video/427031436?title=0&muted=1&autoplay=1&autopause=0&controls=0&loop=1&background=1&app_id=122963&autoplay=1"
       frameborder="0"></iframe>
@@ -155,6 +155,10 @@
       for (i = 0; i < 6; i++) {
         alert('error!@E@@$');
       }
+    }
+
+    function change() {
+      document.querySelector('#video').innerHTML += "<div>stupid</div>"
     }
   </script>
 </body>
